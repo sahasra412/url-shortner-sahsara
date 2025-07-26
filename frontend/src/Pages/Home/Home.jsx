@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            Your App Name
+            Sahasra Rao Pichara 
           </Title>
 
           <Text
