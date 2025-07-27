@@ -59,7 +59,7 @@ export const generateShortUrl = async ( req, res )=>{
 export const redirectUrl = async ( req, res )=>{
    try {
 
-
+ 
        const { shorturl } = req.params;
 
 
