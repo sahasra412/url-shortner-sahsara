@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            Sahasra Rao Pichara 
+            ShortURLer 
           </Title>
 
           <Text
@@ -75,7 +75,7 @@ fw={700}
             variant="gradient"
             gradient={{ from: "grape", to: "indigo" }}
             onClick={() =>
-              isLoggedIn ? navigate("/URLShortener") : navigate("/login")
+              isLoggedIn ? navigate("/URLshortener") : navigate("/login")
             }
           >
             Get Started
