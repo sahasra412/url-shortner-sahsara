@@ -20,7 +20,7 @@ export default function Profile() {
   return (
     <Center style={{ height: '80vh' }}> 
       <Stack  h={300} align="center" justify="center" gap="xs" bg="var(--mantine-color-body)">
-        <Avatar src={profileData?.avatar} alt="it's me" size="xl" radius="xl" />
+        <Avatar alt="it's me" size="xl" radius="xl"   color="cyan" src="avatar.png"   />
         <Text ta="center"> <strong>NAME:</strong>{profileData?.name}</Text>
         <Text ta="center"><strong>EMAIL: </strong>{profileData?.email}</Text>
         <Text ta="center"><strong>ID:</strong>{profileData?._id}</Text>
